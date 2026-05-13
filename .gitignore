@@ -32,6 +32,9 @@ htmlcov/
 *.swo
 *~
 
+# Claude Code per-machine session state (scheduled tasks, locks, etc.)
+.claude/
+
 # OS
 .DS_Store
 Thumbs.db
